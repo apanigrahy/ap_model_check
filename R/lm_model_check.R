@@ -77,7 +77,7 @@ lm_model_check <- function(model){
                            r.squared = round(r.squared, 4),
                            adj.r.squared = round(adj.r.squared, 4)) |>
              dplyr::mutate_if(is.numeric, as.character) |>
-             dplyr::rename("NOBS" = "nobs",
+             dplyr::rename("Num Obs" = "nobs",
                            "DF Residual" = "df.residual",
                            'R Squared' = "r.squared",
                            "Adj R Squared" = "adj.r.squared") |>
