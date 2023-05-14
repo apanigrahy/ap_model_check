@@ -1,0 +1,1 @@
+# This function is used to assess multicolinearity of regression predictor variables
